@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Photo Editor</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<section class="editor">
+		<label for="spacing"></label>
+		<input type="range" name="spacing" min="0" max="200" value="0" data-sizing="px">
+
+		<label for="blur"></label>
+		<input type="range" name="blur" min="0" max="25" value="10" data-sizing="px">
+
+		<label for="base"></label>
+		<input type="color" name="base" value="#ffc600">
+	</section>
+	<div class="wallpaper">
+		<img src="http://pre10.deviantart.net/fa6b/th/pre/f/2014/101/6/8/colorado_avalanche_wallpaper_by_denversportswalls-d7e1dbe.jpg" alt="">
+	</div>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.34/browser.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.34/browser-polyfill.js"></script>
+	<script src="main.js" async></script>
+</body>
+</html>
