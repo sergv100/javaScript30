@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>HTML5 Canvas</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<section class="editor">
+		<label for="lineWidth">line width
+			<input type="range" name="lineWidth" min="0" max="200" value="30">
+		</label>
+
+		<label for="color">change color
+			<input type="color" name="color" value="#ffc600">
+		</label>
+
+		<button id="clear" name="clear">clear art-board</button>
+	</section>
+	<canvas id="draw" height="800" width="800"></canvas>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.34/browser.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.34/browser-polyfill.js"></script>
+	<script src="main.js" async></script>
+</body>
+</html>
